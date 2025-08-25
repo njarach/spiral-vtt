@@ -1,0 +1,8 @@
+services:
+  web:
+    command: sh -c "npm install && npm run build && npx serve -s dist -l 3000"
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - WEB_PORT=3000
