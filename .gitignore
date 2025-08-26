@@ -1,1 +1,2 @@
 ./apps/api/pocketbase/pb_data
+./node_modules/*
