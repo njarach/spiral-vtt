@@ -42,8 +42,6 @@ Then:
 npm run dev        # Start development environment
 npm run prod       # Start in production mode
 npm run stop       # Stop all containers
-npm run dev:web    # Start only frontend (if needed)
-npm run build:web  # Build frontend
 ```
 
 ## Structure
@@ -51,8 +49,8 @@ npm run build:web  # Build frontend
 ```
 spiral-vtt/
 ├── apps/
-│   ├── api/          # PocketBase data (ignored by Git)
+│   ├── api/          # PocketBase data (pb_data content is not committed)
 │   └── web/          # React application
-├── packages/         # Shared packages (if needed)
+├── packages, tools, etc. -> are empty directories for now         
 └── docker-compose.yml
 ```
