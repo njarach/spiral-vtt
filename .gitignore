@@ -1,5 +1,2 @@
 /apps/api/pb_data/*
 !/apps/api/pb_data/.gitkeep
-apps/api/pb_data/data.db*
-apps/api/pb_data/logs/
-apps/api/pb_data/storage/

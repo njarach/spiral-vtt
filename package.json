@@ -9,7 +9,6 @@
     "dev:web": "npm run dev -w apps/web",
     "build:web": "npm run build -w apps/web",
     "type:check": "npm run type-check -w packages/shared-types",
-    
     "dev": "docker compose up",
     "prod": "docker compose -f docker-compose.yml -f docker-compose.prod.yml up",
     "stop": "docker compose down"
