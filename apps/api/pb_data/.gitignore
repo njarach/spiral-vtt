@@ -1,0 +1,3 @@
+/apps/api/pb_data/*
+!/apps/api/pb_data/.gitkeep
+!/apps/api/pb_data/.gitignore
